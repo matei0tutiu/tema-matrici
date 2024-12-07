@@ -1,0 +1,31 @@
+Cerinţa
+Se dă o matrice cu n linii şi m coloane şi elemente numere naturale. Să se determine elementul cu număr maxim de apariții în matrice. Dacă există mai multe elemente cu număr maxim de apariții se vor afișa toate, în ordine crescătoare.
+
+Date de intrare
+Programul citește de la tastatură numerele n şi m, iar apoi n*m numere naturale, separate prin spaţii, reprezentând elementele matricei, linie cu linie.
+
+Date de ieşire
+Programul afișează pe ecran elementele cu număr maxim de apariții se vor afișa toate, în ordine crescătoare, separate printr-un spațiu.
+
+Restricţii şi precizări
+1 ≤ m,n ≤ 100
+elementele matricei vor fi mai mici decât 1.000.000
+Exemplu:
+
+Date de intrare
+
+4 6
+4 20 15 23 18 9 
+1 8 23 23 14 18 
+17 15 13 18 12 15 
+3 18 8 23 12 5 
+
+4 6
+4 20 15 23 8 8
+1 8 23 23 18 18 
+17 15 13 18 12 15 
+3 18 8 23 12 5 
+
+Date de ieșire
+
+18 23

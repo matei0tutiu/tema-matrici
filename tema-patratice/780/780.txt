@@ -1,0 +1,27 @@
+Cerinţa
+Se dă o matrice cu n linii şi n coloane şi elemente numere naturale. Calculaţi cel mai mare divizor comun al sumei elementelor de deasupra diagonalei principale și al sumei elementelor de sub diagonala principală.
+
+Date de intrare
+Programul citește de la tastatură numărul n, iar apoi n*n numere naturale, separate prin spaţii, reprezentând elementele matricei, linie cu linie.
+
+Date de ieşire
+Programul afișează pe ecran numărul D, reprezentând valoarea calculată.
+
+Restricţii şi precizări
+1 ≤ n ≤ 20
+elementele matricei vor fi mai mici decât 1.000.000
+cel puţin un element situat deasupra diagnalei principale şi cel puţin un element situat sub diagonala principală sunt nenule
+Exemplu:
+
+Date de intrare
+
+4
+8 3 5 6 
+5 5 6 5 
+3 8 6 5 
+8 4 8 8 
+Date de ieșire
+
+6
+Explicație
+Suma elementelor de sub diagonala principală este 36 iar cea a elementelor de deasupra diagonalei principale este 30. Cel mai mare divizor comun pentru 36 şi 30 este 6.

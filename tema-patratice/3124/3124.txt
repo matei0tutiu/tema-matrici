@@ -1,0 +1,58 @@
+pbInfo.ro
+ 
+Probleme 
+Soluţii
+Resurse 
+Teme 1
+Matei_Tutiu 
+Acest site foloseşte cookies. Navigând în continuare, vă exprimaţi acordul asupra folosirii cookie-urilor. 
+Postată de	Clasa	Intrare/ieșire	Limită timp	Limită memorie	Sursa problemei	Autor	Dificultate	Scorul tău
+ Sofran Daniel (DanielSofran)	9	tastatură / ecran	0.2 secunde	64 MB / 8 MB	
+-
+Daniel Sofran	ușoară	
+-
+
+#3124 PatratMagic0 
+Clasa a 9-a  Tablouri bidimensionale (matrice)  Parcurgerea matricelor pătratice  PatratMagic0
+Etichete: nicio etichetă
+Tema matrici patratice • Clasa: Clasa 11-a B
+                 
+Enunț
+Soluții 
+Un Pătrat Magic este un pătrat ce conține numerele de la 1 la n 2 în care sumele fiecăror linii, coloane și a celor două diagonale sunt egale. Această sumă se mai numește și constanta pătratului magic.
+
+Pătrat Magic cu constanta 15
+Cerința
+
+Se dă un număr natural n, urmat de o matrice pătratică cu n * n elemente, numere naturale. Să se verifice dacă matricea dată este un pătrat magic.
+
+Date de intrare
+Programul citește de la tastatură numărul n, iar apoi n * n numere naturale, reprezentând elementele matricei.
+
+Date de ieșire
+Programul va afișa pe ecran true dacă matricea dată este un pătrat magic sau false dacă nu este.
+
+Restricții și precizări
+3 ≤ n ≤ 500
+cele n numere citite vor fi mai mici sau egale decât 250.000
+Exemplu:
+Intrare
+
+3
+4 9 2 
+3 5 7 
+8 1 6 
+Ieșire
+
+true
+Încărcare soluție
+
+Lipește codul aici
+Alege limbajul de programare
+C++
+
+Alege tema
+Tema matrici patratice
+1
+​
+ Contact •  Reîncarcă • 109.166.135.80

@@ -1,0 +1,26 @@
+Cerinţa
+Se dă o matrice cu n linii și n coloane și elemente numere naturale. Calculați diferența în valoare absolută dintre sumele elementelor de pe cele două diagonale.
+
+Date de intrare
+Programul citește de la tastatură numărul n, iar apoi n*n numere naturale, separate prin spații, reprezentând elementele matricei, linie cu linie.
+
+Date de ieșire
+Programul afișează pe ecran numărul D, reprezentând valoarea calculată.
+
+Restricții și precizări
+1 ≤ n ≤ 20
+elementele matricei vor fi mai mici decât 10000
+Exemplu:
+
+Date de intrare
+
+4
+8 3 3 7 
+1 1 6 5 
+8 7 1 1 
+9 8 7 1 
+Date de ieșire
+
+18
+Explicație
+Sumele elementelor pe cele două diagonale sunt: 11 și 29. Diferența în valoare absolută este: 18

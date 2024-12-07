@@ -1,0 +1,62 @@
+pbInfo.ro
+ 
+Probleme 
+Soluţii
+Resurse 
+Teme 1
+Matei_Tutiu 
+Acest site foloseşte cookies. Navigând în continuare, vă exprimaţi acordul asupra folosirii cookie-urilor. 
+Postată de	Clasa	Intrare/ieșire	Limită timp	Limită memorie	Sursa problemei	Autor	Dificultate	Scorul tău
+ Candale Silviu (silviu)	9	tastatură / ecran	0.1 secunde	64 MB / 8 MB	
+-
+-
+medie	
+-
+
+#81 Matrice 
+Clasa a 9-a  Tablouri bidimensionale (matrice)  Parcurgerea matricelor pătratice  Matrice
+Etichete: nicio etichetă
+Tema matrici patratice • Clasa: Clasa 11-a B
+                 
+Enunț
+Soluții 
+Cerinţa
+Scrieţi un program care citeşte de la tastatură un număr natural n ( 1 ≤ n ≤ 20 ) şi apoi elementele unui tablou bidimensional cu n linii şi n coloane, care memorează numere naturale.
+
+Programul afişează pe ecran numărul de elemente din tablou care sunt strict mai mari decât toate elementele cu care se învecinează direct (aflate pe aceeaşi linie dar pe o coloană alăturată sau pe aceeaşi coloană dar pe o linie alăturată).
+
+Date de intrare
+Programul citește de la tastatură numărul n, iar apoi n*n numere naturale, separate prin spaţii.
+
+Date de ieşire
+
+Programul afișează pe prima linie a ecranului numărul de elemente din tablou care respectă regula.
+
+Restricţii şi precizări
+1 ≤ n ≤ 20
+elementele tabloului sunt mai mici decât 1000
+Exemplu:
+Intrare
+
+4
+1 5 1 1
+2 1 2 3
+1 3 4 2
+2 1 2 1
+Ieșire
+
+5
+Explicații
+Elementele din matrice care respectă regula sunt: 5 2 3 4 2
+
+Încărcare soluție
+
+Lipește codul aici
+Alege limbajul de programare
+C++
+
+Alege tema
+Tema matrici patratice
+1
+​
+ Contact •  Reîncarcă • 109.166.135.80

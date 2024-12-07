@@ -1,0 +1,58 @@
+pbInfo.ro
+ 
+Probleme 
+Soluţii
+Resurse 
+Teme 1
+Matei_Tutiu 
+Acest site foloseşte cookies. Navigând în continuare, vă exprimaţi acordul asupra folosirii cookie-urilor. 
+Postată de	Clasa	Intrare/ieșire	Limită timp	Limită memorie	Sursa problemei	Autor	Dificultate	Scorul tău
+ Candale Silviu (silviu)	9	tastatură / ecran	0.1 secunde	64 MB / 8 MB	
+-
+-
+medie	
+-
+
+#782 Zona1 
+Clasa a 9-a  Tablouri bidimensionale (matrice)  Parcurgerea matricelor pătratice  Zona1
+Etichete: nicio etichetă
+Tema matrici patratice • Clasa: Clasa 11-a B
+                 
+Enunț
+Soluții 
+Cerința
+Se dă o matrice pătratică cu n linii și n coloane și elemente numere naturale mai mici decât 1000. Să se afișeze în ordine strict crescătoare valorile care apar sub diagonala principală și sub diagonala secundară de cel puţin 2 ori. Fiecare valoare se va afişa o singură dată.
+
+Date de intrare
+Programul citește de la tastatură numărul n, apoi elementele matricei, linie cu linie.
+
+Date de ieșire
+Programul va afișa pe ecran, în ordine strict crescătoare, valorile cerute, separate printr-un spaţiu.
+
+Restricții și precizări
+1 ≤ n ≤ 200
+Exemplu:
+
+Intrare
+
+6
+10 8 5 8 4 2 
+6 5 3 1 3 8 
+8 1 4 7 8 8 
+5 1 9 6 6 1 
+8 9 3 2 3 6 
+8 9 3 3 9 6 
+Ieșire
+
+3 9
+Încărcare soluție
+
+Lipește codul aici
+Alege limbajul de programare
+C++
+Alege tema
+Tema matrici patratice
+1
+​
+
+ Contact •  Reîncarcă • 109.166.135.80

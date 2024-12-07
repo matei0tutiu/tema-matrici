@@ -1,0 +1,63 @@
+pbInfo.ro
+ 
+Probleme 
+Soluţii
+Resurse 
+Teme 1
+Matei_Tutiu 
+Acest site foloseşte cookies. Navigând în continuare, vă exprimaţi acordul asupra folosirii cookie-urilor. 
+Postată de	Clasa	Intrare/ieșire	Limită timp	Limită memorie	Sursa problemei	Autor	Dificultate	Scorul tău
+ Candale Silviu (silviu)	9	spirala.in / spirala.out	0.1 secunde	64 MB / 8 MB	
+-
+-
+medie	
+-
+
+#211 Spirala 
+Clasa a 9-a  Tablouri bidimensionale (matrice)  Parcurgerea matricelor pătratice  Spirala
+Etichete: nicio etichetă
+Încarc soluții!
+
+
+
+Tema matrici patratice • Clasa: Clasa 11-a B
+                 
+Enunț
+Soluții 
+Se consideră tabloul bidimensional cu n linii şi n coloane ce conţine numere naturale cu cel mult patru cifre fiecare.
+
+Cerinţa
+Scrieţi un program care citeşte numărul natural n şi cele n*n elemente ale tabloului şi apoi afişează pe ecran elementele tabloului, separate prin câte un spaţiu, obţinute prin parcurgerea în spirală în sensul acelor de ceasornic.
+
+Date de intrare
+Fişierul de intrare spirala.in conţine pe prima linie numărul n, iar pe următoarele n linii câte n numere naturale separate prin spaţii, reprezentând elementele tabloului.
+
+
+Date de ieşire
+Fişierul de ieşire spirala.out va conţine pe prima linie elementele cerute, separate prin câte un spaţiu.
+
+Restricţii şi precizări
+2≤n≤23
+elementele tabloului sunt mai mici decât 1000
+Exemplu:
+spirala.in
+
+4
+1 2 3 4 
+5 6 7 8 
+9 10 11 12
+13 14 15 16
+spirala.out
+
+1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+Încărcare soluție
+
+Lipește codul aici
+Alege limbajul de programare
+C++
+Alege tema
+Tema matrici patratice
+1
+​
+
+ Contact •  Reîncarcă • 109.166.135.80

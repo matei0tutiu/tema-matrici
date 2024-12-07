@@ -1,0 +1,31 @@
+Se dă o matrice cu n linii și m coloane și elemente numere întregi.
+
+Cerinţa
+Să se determine, pentru fiecare linie a matricei, valoarea maximă și indicele coloanei pe care se află valoarea maximă.
+
+Date de intrare
+Fişierul de intrare maxmat.in conţine pe prima linie numerele n și m, iar următoarele n linii câte m numere întregi, reprezentând elementele matricei.
+
+Date de ieşire
+Fişierul de ieşire maxmat.out va conţine n linii; pe fiecare linie se vor afla două numere, separate prin exact un spațiu, reprezentând valoarea maximă de pe linia curentă și indicele coloanei pe care se află aceasta .
+
+Restricţii şi precizări
+1 ≤ n,m ≤ 25
+elementele matricei aparțin intervalului [-1000,1000]
+dacă pe o linie a matricei, elementul maxim apare de mai multe ori, se va afișa indicele de coloană minim
+liniile și coloanele matricei sunt numerotate de la 1
+Exemplu:
+maxmat.in
+
+4 5
+-2 -9 7 -7 -7 
+1 -7 -8 -1 4 
+8 2 5 -7 2 
+8 -9 -7 10 -9 
+
+maxmat.out
+
+7 3
+4 5
+8 1
+10 4

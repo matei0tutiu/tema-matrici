@@ -1,0 +1,28 @@
+Se dă o matrice cu n linii și m coloane și elemente numere întregi.
+
+Cerinţa
+Să se afișeze elementele de pe coloana din matrice cu suma elementelor maximă
+
+Date de intrare
+Fişierul de intrare sumcolmax.in conţine pe prima linie numerele n și m, iar următoarele n linii câte m numere întregi, reprezentând elementele matricei.
+
+Date de ieşire
+Fişierul de ieşire sumcolmax.out va conţine 1 linii, cu n valori, separate prin spații, reprezentând elementele de pe coloana cu suma elementelor maximă
+
+Restricţii şi precizări
+1 ≤ n,m ≤ 25
+elementele matricei aparțin intervalului [-1000,1000]
+dacă sunt mai multe coloane cu suma elementelor maximă, se va considera coloana cu indicele mai mic
+elementele coloanei rezultat se afișează de sus în jos
+Exemplu:
+
+sumcolmax.in
+
+4 5
+-2 -9 7 9 -7
+1 -7 -8 -1 4
+8 2 5 7 2
+8 -9 -7 10 -9
+sumcolmax.out
+
+9 -1 7 10

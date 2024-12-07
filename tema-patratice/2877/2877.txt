@@ -1,0 +1,66 @@
+pbInfo.ro
+ 
+Probleme 
+Soluţii
+Resurse 
+Teme 1
+Matei_Tutiu 
+Acest site foloseşte cookies. Navigând în continuare, vă exprimaţi acordul asupra folosirii cookie-urilor. 
+Postată de	Clasa	Intrare/ieșire	Limită timp	Limită memorie	Sursa problemei	Autor	Dificultate	Scorul tău
+ Andrei Visalon (Prekzursil)	9	tastatură / ecran	0.1 secunde	1 MB / 1 MB	
+-
+Mirela Mlisan, Andrei Visalon	medie	
+-
+
+#2877 SortMatrixLinCol 
+Clasa a 9-a  Tablouri bidimensionale (matrice)  Parcurgerea matricelor pătratice  SortMatrixLinCol
+Etichete: nicio etichetă
+Tema matrici patratice • Clasa: Clasa 11-a B
+                 
+Enunț
+Soluții 
+Cerința
+Se dă o matrice pătratică de dimensiune n. Să se ordoneze crescător fiecare linie a matricei, apoi să se ordoneze crescător fiecare coloană a acesteia.
+
+Date de intrare
+Programul citește de la tastatură numărul n, iar apoi elementele matricei. Fiecare linie se află pe câte un rând, elementele fiecărei linii fiind separate prin câte un spațiu.
+
+Date de ieșire
+Programul va afișa pe ecran matricea modificată, câte o linie a matricei pe o linie a ecranului, elementele fiecărei linii fiind separate prin câte un spațiu.
+
+Restricții și precizări
+1 ≤ n ≤ 100
+elementele matricei vor fi mai mici decât 1.000
+Exemplul 1:
+Intrare
+
+3 4 1 3 9 6 8 5 2 7
+Ieșire
+
+1 3 4 
+2 5 7 
+6 8 9 
+Exemplul 2:
+Intrare
+
+4
+12 7 1 8
+20 9 11 2
+15 4 5 13
+3 18 10 6
+Ieșire
+
+1 5 8 12 
+2 6 10 15 
+3 7 11 18 
+4 9 13 20 
+Încărcare soluție
+
+Lipește codul aici
+Alege limbajul de programare
+C++
+Alege tema
+Tema matrici patratice
+1
+​
+ Contact •  Reîncarcă • 109.166.135.80

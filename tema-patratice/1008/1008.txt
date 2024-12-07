@@ -1,0 +1,62 @@
+pbInfo.ro
+ 
+Probleme 
+Soluţii
+Resurse 
+Teme 1
+Matei_Tutiu 
+Acest site foloseşte cookies. Navigând în continuare, vă exprimaţi acordul asupra folosirii cookie-urilor. 
+Postată de	Clasa	Intrare/ieșire	Limită timp	Limită memorie	Sursa problemei	Autor	Dificultate	Scorul tău
+ Candale Silviu (silviu)	9	spirala1.in / spirala1.out	0.1 secunde	64 MB / 8 MB	
+-
+-
+medie	
+-
+
+#1008 Spirala1 
+Clasa a 9-a  Tablouri bidimensionale (matrice)  Parcurgerea matricelor pătratice  Spirala1
+Etichete: nicio etichetă
+Tema matrici patratice • Clasa: Clasa 11-a B
+                 
+Enunț
+Soluții 
+Cerința
+Se dau n numere naturale, un n este un pătrat perfect. Să se construiască în memorie o matrice pătratică cu toate cele n numere, în spirală, în sens invers acelor de ceas astfel: pe prima coloană, începând cu linia 1, se vor trece primele elemente din şir (de sus în jos), apoi pe ultima linie, începând de la prima coloană până la ultima (de la stânga la dreapta), apoi pe ultima coloană, de la ultima linie la prima (de jos în sus), apoi pe prima linie, de la ultima coloană la prima (de la dreapta la stânga) şamd.
+
+Date de intrare
+Fișierul de intrare spirala1.in conține pe prima linie numărul n, iar pe următoarea linie cele n numere.
+
+Date de ieșire
+
+Fișierul de ieșire spirala1.out va conține matricea construită, câte o linie a matricei pe o linie a fişierului, elementele fiecărei linii fiind separate prin exact un spaţiu.
+
+Restricții și precizări
+1 ≤ n ≤ 10000
+numerele date vor fi mai mici decât 1000
+Exemplu:
+spirala1.in
+
+9
+2 6 7 3 7 1 7 1 5
+spirala1.out
+
+2 1 7
+6 5 1
+7 3 7
+
+1  2  3  4
+5  6  7  8
+9  10 11 12
+13 14 15 16
+
+Încărcare soluție
+
+Lipește codul aici
+Alege limbajul de programare
+C++
+Alege tema
+Tema matrici patratice
+1
+​
+
+ Contact •  Reîncarcă • 109.166.135.80

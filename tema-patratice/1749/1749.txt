@@ -1,0 +1,35 @@
+Considerăm o matrice pătratică cu N linii și N coloane. În această matrice sunt definite 4 zone:
+
+zona 1, formată din elementele situate strict deasupra diagonalei principale și strict deasupra diagonalei secundare;
+zona 2, formată din elementele situate strict deasupra diagonalei principale și strict sub diagonala secundară;
+zona 3, formată din elementele situate strict sub diagonala principală și strict sub diagonala secundară;
+zona 4, formată din elementele situate strict sub diagonala principală și strict deasupra diagonalei secundare;
+
+
+Cerința
+Se dă o matrice pătratică și un număr natural Z, reprezentând o zonă din matrice. Să se determine suma elementelor din zona Z.
+
+Date de intrare
+Programul citește de la tastatură numerele N Z, iar apoi N*N numere naturale, reprezentând elementele matricei.
+
+Date de ieșire
+Programul va afișa pe ecran numărul S, reprezentând suma elementelor din zona Z a matricei.
+
+Restricții și precizări
+1 ≤ N ≤ 200
+1 ≤ Z ≤ 4
+elementele matricei vor fi mai mici decât 1000
+Exemplu:
+Intrare
+
+5 2
+7 4 8 5 10 
+7 7 10 2 2 
+1 2 8 8 4 
+9 9 5 3 2 
+3 6 7 1 7 
+Ieșire
+
+16
+Explicație
+Elementele din zona 2 sunt 2 8 4 2, cu suma 16.

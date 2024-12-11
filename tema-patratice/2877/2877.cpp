@@ -25,7 +25,7 @@ void c_2877()
             for (size_t j = 0; j < i; j++)
                 if (data[j][c] > data[j + 1][c])
                 {
-                    Utils::Interchange(data[j][c], data[j + 1][c]);
+                    Utils::swap(data[j][c], data[j + 1][c]);
                     swapCount++;
                 }
         }

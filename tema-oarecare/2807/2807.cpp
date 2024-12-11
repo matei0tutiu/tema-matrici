@@ -19,7 +19,7 @@ void c_2807()
             linieMinUltima = r;
     }
 
-    Utils::Interchange(data[linieMinPrima][0], data[linieMinUltima][cols - 1]);
+    Utils::swap(data[linieMinPrima][0], data[linieMinUltima][cols - 1]);
 
     Utils::PrintMatrix(data, rows, cols);
     Utils::delete_matrix(data, rows, cols);

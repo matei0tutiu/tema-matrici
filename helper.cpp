@@ -80,11 +80,11 @@ public:
     }
 
     template <typename T>
-    static void Interchange(T &a, T &b)
+    static void swap(T &a, T &b)
     {
-        a += b;
-        b = a - b;
-        a -= b;
+        T temp = a;
+        a = b;
+        b = temp;
     }
 
     template <typename T>
@@ -122,6 +122,30 @@ public:
     }
 
     template <typename T>
+    static void quicksort(T *vec, size_t low, size_t high)
+    {
+        if (low >= high)
+            return;
+
+        size_t l = low, h = high - 1;
+        T pivot = vec[h];
+
+        while (l < h)
+        {
+            while (vec[l] < pivot)
+                l++;
+
+            while (vec[h] > pivot)
+                h--;
+
+            swap(vec[l], vec[h]);
+        }
+
+        quicksort(vec, 0, l);
+        quicksort(vec, l + 1, high);
+    }
+
+    template <typename T>
     static void bubblesort(T *vector, size_t size, bool reverse = false)
     {
         size_t swapCount = 1;
@@ -135,7 +159,7 @@ public:
                 for (size_t j = 0; j < i; j++)
                     if (vector[j] > vector[j + 1])
                     {
-                        Interchange(vector[j], vector[j + 1]);
+                        swap(vector[j], vector[j + 1]);
                         swapCount++;
                     }
             }
@@ -148,7 +172,7 @@ public:
                 for (size_t j = size - 1; j > i; j--)
                     if (vector[j] > vector[j - 1])
                     {
-                        Interchange(vector[j], vector[j - 1]);
+                        swap(vector[j], vector[j - 1]);
                         swapCount++;
                     }
             }

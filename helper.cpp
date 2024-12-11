@@ -122,7 +122,7 @@ public:
     }
 
     template <typename T>
-    static void quicksort(T *vec, size_t low, size_t high)
+    static void quicksort(T *vec, size_t low, size_t high, bool reverse = false)
     {
         if (low >= high)
             return;
@@ -132,17 +132,17 @@ public:
 
         while (l < h)
         {
-            while (vec[l] < pivot)
+            while (reverse ? (vec[l] > pivot) : (vec[l] < pivot))
                 l++;
 
-            while (vec[h] > pivot)
+            while (reverse ? (vec[h] < pivot) : (vec[h] > pivot))
                 h--;
 
             swap(vec[l], vec[h]);
         }
 
-        quicksort(vec, 0, l);
-        quicksort(vec, l + 1, high);
+        quicksort(vec, 0, l, reverse);
+        quicksort(vec, l + 1, high, reverse);
     }
 
     template <typename T>
